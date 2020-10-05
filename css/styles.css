@@ -1,0 +1,30 @@
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#gallery {
+  list-style: none;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  background-color: aliceblue;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
